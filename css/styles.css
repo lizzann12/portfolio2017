@@ -15,6 +15,7 @@ color: white; /*BACKGROUND color for active*/
 background-color: #030033;
 }
 
+
 /*.navbar .navbar-nav {
   display: inline-block;
   float: none;
@@ -23,7 +24,14 @@ background-color: #030033;
 
 .navbar .navbar-collapse {
   text-align: center;
+  margin-right: 50px;
+  background-color:#38FFC2;
+}
 
+.navbar-inverse {
+    background-color: #38FFC2;
+    /*border-color: #080808;*/
+    border: none;
 }
 
 .name, p {
@@ -34,4 +42,14 @@ background-color: #030033;
 .name {
   margin:400px 0 0 0;
   font-size:;
+}
+
+.about-me p {
+  font-family: monospace;
+  height: 400px;
+}
+
+.projects {
+  background-color:#1BC6E8;
+  height: 500px;
 }
