@@ -1,7 +1,7 @@
 #coffee-code {
   background-image:linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url("../img/computer-coffee3.jpg");
   background-size: cover;
-  height: 1000px;
+  height: 800px;
 }
 
                       /* Nav styles*/
@@ -49,7 +49,40 @@ background-color: #030033;
   height: 400px;
 }
 
+.who {
+  margin-bottom: 100px;
+}
+
 .projects {
   background-color:#1BC6E8;
-  height: 500px;
+  height: 800px;
+}
+
+.center {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: 300px;
+}
+
+/* Contact styles for social media*/
+fa {
+    color: #00ace6;
+    margin: 30px 10px 30px 10px;
+    padding:20px 0 20px 0;
+}
+
+.social-media {
+    color: #ff7f50;
+    margin: 30px 10px 30px 10px;
+    padding: 20px 10px 20px 10px;
+}
+
+footer {
+  clear: both;
+  padding: 24px 0px;
 }
