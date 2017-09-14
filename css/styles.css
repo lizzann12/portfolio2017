@@ -4,7 +4,12 @@
   height: 800px;
 }
 
-                      /* Nav styles*/
+/* Nav styles*/
+
+.navbar-inverse .navbar-nav>li>a {
+color: #ff7f50;
+}
+
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 color: #e7e7e7;  /*Sets the text hover color on navbar*/
 }
@@ -25,11 +30,11 @@ background-color: #030033;
 .navbar .navbar-collapse {
   text-align: center;
   margin-right: 50px;
-  background-color:#38FFC2;
+  background-color:#5079ff;
 }
 
 .navbar-inverse {
-    background-color: #38FFC2;
+    background-color: #5079ff;
     /*border-color: #080808;*/
     border: none;
 }
@@ -54,7 +59,7 @@ background-color: #030033;
 }
 
 .projects {
-  background-color:#1BC6E8;
+  background-color:#ff7f50;
   height: 800px;
 }
 
@@ -70,10 +75,10 @@ background-color: #030033;
 }
 
 /* Contact styles for social media*/
-fa {
-    color: #00ace6;
+i.fa {
+    color: #ff7f50;
     margin: 30px 10px 30px 10px;
-    padding:20px 0 20px 0;
+    padding:20px;
 }
 
 .social-media {
