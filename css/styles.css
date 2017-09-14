@@ -4,6 +4,10 @@
   height: 800px;
 }
 
+#contact {
+  height: 400px;
+}
+
 /* Nav styles*/
 
 .navbar-inverse .navbar-nav>li>a {
@@ -90,4 +94,8 @@ i.fa {
 footer {
   clear: both;
   padding: 24px 0px;
+}
+
+.contact-text {
+  margin-top:100px;
 }
